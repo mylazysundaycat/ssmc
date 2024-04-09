@@ -69,6 +69,7 @@ public class SecurityConfig {
                 .with(new JwtSecurityConfig(tokenProcider), customizer ->{});
 
         return http.build();
+        test
     }
 
 }
